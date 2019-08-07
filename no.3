@@ -1,0 +1,19 @@
+#availability so branch manager can schedule shifts
+#it is assumed all workers are full time
+
+def shift_availability(hours_booked_in_week):
+ availability = "unavailable"
+  
+ elif hours_booked_in_week >= 30:
+  availability = "available 1 working day"
+  
+ elif hours_booked_in_week >= 24:
+  availability = "available 2 working days"
+  
+ elif hours_booked_in_week >= 16:
+  availability = "available 3 working days"
+  
+ elif hours_booked_in_week >=8
+  availability = "available 4 working days"
+  
+ return availability
