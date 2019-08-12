@@ -1,4 +1,4 @@
-#buying of financial products
+#As an account holder, I want to buy financial products so that I can invest my money wisely
 
 def _init_(self, name, balance)
   self.name = name
@@ -6,6 +6,6 @@ def _init_(self, name, balance)
   
 def buy(self, amount):
   if amount > self.balance:
-  print("Sorry, unable to buy financial products at this time")
+  return "Sorry, unable to buy financial products at this time"
   else:
-  print("Sucessful, processing transaction")
+  return "Sucessful, processing transaction"
